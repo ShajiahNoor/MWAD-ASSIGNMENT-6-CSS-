@@ -11,7 +11,7 @@ html, body {
     background-color: #ffffff;
 }
 
-/* HEADER */
+/*/////////////////////////////////////// HEADER ///////////////////////////////////////*/
 
 .navbar {
     width: 100%;
@@ -72,7 +72,7 @@ html, body {
     font-size: 13px;
 }
 
-/* HERO SECTION */
+/*/////////////////////////////////////// HERO SECTION ///////////////////////////////////////*/
 
 .hero {
     width: 1100px;
@@ -86,7 +86,7 @@ html, body {
     padding: 30px 0;
 }
 
-/* LEFT CONTENT */
+/*/////////////////////////////////////// LEFT CONTENT ///////////////////////////////////////*/
 
 .hero-content {
     flex: 0 0 54%;
@@ -120,7 +120,7 @@ html, body {
     margin-bottom: 25px;
 }
 
-/* EMAIL BOX */
+/*/////////////////////////////////////// EMAIL BOX ///////////////////////////////////////*/
 
 .email-box {
     display: flex;
@@ -154,7 +154,7 @@ html, body {
     text-align: left;
 }
 
-/* RIGHT COMBINED IMAGE */
+/*/////////////////////////////////////// RIGHT COMBINED IMAGE ///////////////////////////////////////*/
 
 .hero-images {
     flex: 0 0 43%;
@@ -172,7 +172,7 @@ html, body {
     object-fit: contain;
 }
 
-/* TRUSTED BRANDS SECTION */
+/*/////////////////////////////////////// TRUSTED BRANDS SECTION ///////////////////////////////////////*/
 
 .brands-section {
     width: 90%;
@@ -203,7 +203,7 @@ html, body {
     color: #9299a8;
 }
 
-/* BRAND LOGOS */
+/*/////////////////////////////////////// BRAND LOGOS ///////////////////////////////////////*/
 
 .cnn {
     font-size: 27px;
@@ -247,8 +247,7 @@ html, body {
     letter-spacing: -2px;
 }
 
-
-/* WIDGETS SECTION 2 */
+/*/////////////////////////////////////// WIDGETS SECTION 2 ///////////////////////////////////////*/
 
 .widgets-section {
     width: 100%;
@@ -262,7 +261,7 @@ html, body {
     box-sizing: border-box;
 }
 
-/* LEFT PREVIEW */
+/*/////////////////////////////////////// LEFT PREVIEW ///////////////////////////////////////*/
 
 .widget-preview {
     width: 62%;
@@ -277,7 +276,7 @@ html, body {
     image-rendering: auto;
 }
 
-/* RIGHT CONTENT */
+/*/////////////////////////////////////// RIGHT CONTENT ///////////////////////////////////////*/
 
 .widget-content {
     width: 28%;
@@ -291,7 +290,7 @@ html, body {
     margin-bottom: 18px;
 }
 
-/* WIDGET LIST */
+/*/////////////////////////////////////// WIDGET LIST ///////////////////////////////////////*/
 
 .widget-list {
     display: flex;
@@ -324,7 +323,7 @@ html, body {
     font-size: 13px;
 }
 
-/* ACTIVE ITEM */
+/*/////////////////////////////////////// ACTIVE ITEM ///////////////////////////////////////*/
 
 .widget-item.active {
     background: #f0f4fa;
@@ -336,7 +335,7 @@ html, body {
     color: white;
 }
 
-/* STORY SAVER SECTION 3*/
+/*/////////////////////////////////////// STORY SAVER SECTION 3 ///////////////////////////////////////*/
 
 .story-saver {
     width: 100%;
@@ -345,10 +344,9 @@ html, body {
     text-align: center;
     padding: 36px 20px 45px;
     margin-top: 150px;
-
 }
 
-/* HEADING */
+/*/////////////////////////////////////// HEADING ///////////////////////////////////////*/
 
 .story-saver h2 {
     font-size: 48px;
@@ -362,7 +360,7 @@ html, body {
     padding: 0 3px;
 }
 
-/* DESCRIPTION */
+/*/////////////////////////////////////// DESCRIPTION ///////////////////////////////////////*/
 
 .story-saver > p {
     font-size: 20px;
@@ -370,13 +368,12 @@ html, body {
     line-height: 30px;
     color: #222;
     margin-bottom: 27px;
-letter-spacing: 0px;
-text-align: center;
-vertical-align: middle;
-
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
 }
 
-/* SOCIAL CARDS */
+/*/////////////////////////////////////// SOCIAL CARDS ///////////////////////////////////////*/
 
 .social-cards {
     display: flex;
@@ -399,14 +396,14 @@ vertical-align: middle;
     gap: 3px;
 }
 
-/* ACTIVE INSTAGRAM CARD */
+/*/////////////////////////////////////// ACTIVE INSTAGRAM CARD ///////////////////////////////////////*/
 
 .social-card.active {
     border: 2px dotted #b66aff;
     box-shadow: none;
 }
 
-/* ICONS */
+/*/////////////////////////////////////// ICONS ///////////////////////////////////////*/
 
 .social-icon {
     width: 22px;
@@ -448,7 +445,7 @@ vertical-align: middle;
     font-size: 15px;
 }
 
-/* SOCIAL CARDS */
+/*/////////////////////////////////////// SOCIAL CARDS ///////////////////////////////////////*/
 
 .social-cards {
     display: flex;
@@ -464,7 +461,6 @@ vertical-align: middle;
     border: 1px solid #dce2eb;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(255, 255, 255, 1);
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -472,14 +468,14 @@ vertical-align: middle;
     gap: 3px;
 }
 
-/* ACTIVE INSTAGRAM BOX */
+/*/////////////////////////////////////// ACTIVE INSTAGRAM BOX ///////////////////////////////////////*/
 
 .social-card.active {
-   border: none;
+    border: none;
     box-shadow: none;
 }
 
-/* SOCIAL ICON */
+/*/////////////////////////////////////// SOCIAL ICON ///////////////////////////////////////*/
 
 .social-icon {
     width: 50px;
@@ -495,7 +491,7 @@ vertical-align: middle;
     object-fit: contain;
 }
 
-/* TEXT */
+/*/////////////////////////////////////// TEXT ///////////////////////////////////////*/
 
 .social-card strong {
     font-size: 22px;
@@ -507,8 +503,7 @@ vertical-align: middle;
     color: #333;
 }
 
-
-/* Benefits Section 4 */
+/*/////////////////////////////////////// Benefits Section 4 ///////////////////////////////////////*/
 
 .benefits-section {
     width: 70%;
@@ -518,11 +513,10 @@ vertical-align: middle;
     box-sizing: border-box;
 }
 
-/* Heading */
+/*/////////////////////////////////////// Heading ///////////////////////////////////////*/
 
 .benefits-section h2 {
     font-family: Roboto, Arial, sans-serif;
-    left: 370px;
     font-size: 48px;
     line-height: 135%;
     font-weight: 900;
@@ -534,7 +528,7 @@ vertical-align: middle;
     background-color: #ffeb3b;
 }
 
-/* Benefit Cards */
+/*/////////////////////////////////////// Benefit Cards ///////////////////////////////////////*/
 
 .benefit-cards {
     display: flex;
@@ -572,7 +566,7 @@ vertical-align: middle;
 }
 
 .card-icon {
-   margin-left: -10px;
+    margin-left: -10px;
     font-size: 20px;
     font-weight: 900;
 }
@@ -585,7 +579,7 @@ vertical-align: middle;
     color: #222;
 }
 
-/* Testimonial */
+/*/////////////////////////////////////// Testimonial ///////////////////////////////////////*/
 
 .testimonial {
     max-width: 500px;
@@ -610,10 +604,9 @@ vertical-align: middle;
     color: #222;
     margin-top: -5px;
     font-family: Roboto;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .testimonial-person {
@@ -621,7 +614,7 @@ vertical-align: middle;
     align-items: center;
     justify-content: center;
     gap: 8px;
-     margin-top: 12px;
+    margin-top: 12px;
 }
 
 .testimonial-person img {
@@ -637,12 +630,11 @@ vertical-align: middle;
     font-weight: 700;
     font-family: Roboto;
     line-height: 28px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     vertical-align: middle;
-
 }
 
-/* SECTION 5 - TEMPLATES */
+/*/////////////////////////////////////// SECTION 5 - TEMPLATES ///////////////////////////////////////*/
 
 .template-section {
     width: 100%;
@@ -656,7 +648,7 @@ vertical-align: middle;
     color: white;
 }
 
-/* HEADER */
+/*/////////////////////////////////////// HEADER ///////////////////////////////////////*/
 
 .template-header h1 {
     max-width: 320px;
@@ -675,12 +667,12 @@ vertical-align: middle;
     font-weight: 400;
     font-size: 10px;
     font-family: Roboto;
-line-height: 17px;
-letter-spacing: 0%;
-text-align: center;
+    line-height: 17px;
+    letter-spacing: 0;
+    text-align: center;
 }
 
-/* BUTTON */
+/*/////////////////////////////////////// BUTTON ///////////////////////////////////////*/
 
 .template-btn {
     display: inline-block;
@@ -691,15 +683,14 @@ text-align: center;
     border-radius: 3px;
     font-size: 8px;
     margin-bottom: 20px;
-    width: 197;
-    height: 50;
+    width: 197px;
+    height: 50px;
     gap: 5px;
     opacity: 1;
     border-width: 2px;
-
 }
 
-/* TEMPLATE CARDS */
+/*/////////////////////////////////////// TEMPLATE CARDS ///////////////////////////////////////*/
 
 .template-cards {
     width: 700px;
@@ -720,7 +711,7 @@ text-align: center;
     text-align: left;
 }
 
-/* CARD IMAGES */
+/*/////////////////////////////////////// CARD IMAGES ///////////////////////////////////////*/
 
 .template-card img {
     display: block;
@@ -742,7 +733,7 @@ text-align: center;
     flex-shrink: 0;
 }
 
-/* CARD CONTENT */
+/*/////////////////////////////////////// CARD CONTENT ///////////////////////////////////////*/
 
 .template-card-content {
     flex: 1;
@@ -763,20 +754,19 @@ text-align: center;
     margin: 0;
 }
 
-/* REVERSE LAYOUT */
+/*/////////////////////////////////////// REVERSE LAYOUT ///////////////////////////////////////*/
 
 .template-card:nth-child(2) {
     flex-direction: column-reverse;
 }
 
-/* Gallery normal layout */
+/*/////////////////////////////////////// Gallery normal layout ///////////////////////////////////////*/
 
 .template-card:nth-child(4) {
     flex-direction: column;
-  
 }
 
-/* PAGINATION DOTS */
+/*/////////////////////////////////////// PAGINATION DOTS ///////////////////////////////////////*/
 
 .template-dots {
     display: flex;
@@ -799,18 +789,16 @@ text-align: center;
     border-color: white;
 }
 
-/* Section 6 - Integrations */
+/*/////////////////////////////////////// Section 6 - Integrations ///////////////////////////////////////*/
 
 .integration-section {
     min-height: 350px;
     width: 80%;
     max-width: 1050px;
     margin: 150px auto 0;
-    
     padding: 45px 50px 45px 75px;
     box-sizing: border-box;
     background-color: #ebeef6;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -818,10 +806,12 @@ text-align: center;
 }
 
 .integration-content,
+
 .integration-center {
     transform: translateY(-10px);
 }
-/* Left Content */
+
+/*/////////////////////////////////////// Left Content ///////////////////////////////////////*/
 
 .integration-content {
     width: 42%;
@@ -865,7 +855,7 @@ text-align: center;
     margin-right: 8px;
 }
 
-/* Center Integration Image */
+/*/////////////////////////////////////// Center Integration Image ///////////////////////////////////////*/
 
 .integration-center {
     width: 22%;
@@ -882,7 +872,6 @@ text-align: center;
     height: 130px;
     border-radius: 50%;
     background-color: #DCEEFF;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -912,7 +901,6 @@ text-align: center;
     background-color: #087AFF;
     color: #FFFFFF;
     border-radius: 4px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -923,16 +911,15 @@ text-align: center;
     width: 128px;
     height: 120px;
     border-radius: 4px;
-gap: 10.85px;
-padding-top: 10.85px;
-padding-right: 8.68px;
-padding-bottom: 10.85px;
-padding-left: 8.68px;
-
+    gap: 10.85px;
+    padding-top: 10.85px;
+    padding-right: 8.68px;
+    padding-bottom: 10.85px;
+    padding-left: 8.68px;
     object-fit: contain;
 }
 
-/* Right Platform Logos */
+/*/////////////////////////////////////// Right Platform Logos ///////////////////////////////////////*/
 
 .platform-logos {
     width: 30%;
@@ -953,7 +940,7 @@ padding-left: 8.68px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.10);
 }
 
-/* Dashed Lines */
+/*/////////////////////////////////////// Dashed Lines ///////////////////////////////////////*/
 
 .platform-logo {
     position: relative;
@@ -968,7 +955,7 @@ padding-left: 8.68px;
     top: 50%;
 }
 
-/* SECTION 7 - WIDGET CTA */
+/*/////////////////////////////////////// SECTION 7 - WIDGET CTA ///////////////////////////////////////*/
 
 .widget-section {
     width: 100%;
@@ -986,14 +973,13 @@ padding-left: 8.68px;
     padding: 25px 7%;
     background-color: #edf1f8;
     box-sizing: border-box;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 35px;
 }
 
-/* LEFT CONTENT */
+/*/////////////////////////////////////// LEFT CONTENT ///////////////////////////////////////*/
 
 .widget-content {
     flex: 1;
@@ -1014,7 +1000,7 @@ padding-left: 8.68px;
     color: #444;
 }
 
-/* EMAIL BOX */
+/*/////////////////////////////////////// EMAIL BOX ///////////////////////////////////////*/
 
 .email-box {
     display: flex;
@@ -1041,7 +1027,7 @@ padding-left: 8.68px;
     white-space: nowrap;
 }
 
-/* FEATURES */
+/*/////////////////////////////////////// FEATURES ///////////////////////////////////////*/
 
 .features {
     display: flex;
@@ -1051,7 +1037,7 @@ padding-left: 8.68px;
     color: #555;
 }
 
-/* RIGHT IMAGE */
+/*/////////////////////////////////////// RIGHT IMAGE ///////////////////////////////////////*/
 
 .widget-image {
     flex: 1;
@@ -1066,7 +1052,7 @@ padding-left: 8.68px;
     object-fit: contain;
 }
 
-/* EMBEDSOCIAL TEXT AND ICON */
+/*/////////////////////////////////////// EMBEDSOCIAL TEXT AND ICON ///////////////////////////////////////*/
 
 .widget-image .powered {
     display: flex;
@@ -1092,7 +1078,7 @@ padding-left: 8.68px;
     cursor: pointer;
 }
 
-/* Other Features Section 8 */
+/*/////////////////////////////////////// Other Features Section 8 ///////////////////////////////////////*/
 
 .features-section {
     width: 80%;
@@ -1111,7 +1097,7 @@ padding-left: 8.68px;
     margin-bottom: 40px;
 }
 
-/* Features Container */
+/*/////////////////////////////////////// Features Container ///////////////////////////////////////*/
 
 .features-container {
     width: 100%;
@@ -1122,7 +1108,7 @@ padding-left: 8.68px;
     gap: 15px;
 }
 
-/* Feature Cards */
+/*/////////////////////////////////////// Feature Cards ///////////////////////////////////////*/
 
 .feature-card {
     background-color: #fff;
@@ -1178,11 +1164,12 @@ padding-left: 8.68px;
 }
 
 .custom-css-card h3,
+
 .custom-css-card p {
     transform: translateY(-12px);
 }
 
-/* Video Testimonial Section 9 */
+/*/////////////////////////////////////// Video Testimonial Section 9 ///////////////////////////////////////*/
 
 .video-testimonial {
     max-width: 1050px;
@@ -1192,7 +1179,6 @@ padding-left: 8.68px;
     padding: 24px;
     background-color: #0e1929;
     border-radius: 15px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1200,7 +1186,7 @@ padding-left: 8.68px;
     box-sizing: border-box;
 }
 
-/* Left Content */
+/*/////////////////////////////////////// Left Content ///////////////////////////////////////*/
 
 .video-content {
     flex: 1;
@@ -1230,7 +1216,7 @@ padding-left: 8.68px;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     vertical-align: middle;
     margin-top: 8px;
 }
@@ -1242,7 +1228,7 @@ padding-left: 8.68px;
     margin-top: 20px;
 }
 
-/* Video Thumbnail */
+/*/////////////////////////////////////// Video Thumbnail ///////////////////////////////////////*/
 
 .video-thumbnail {
     width: 55%;
@@ -1258,7 +1244,7 @@ padding-left: 8.68px;
     border-radius: 14px;
 }
 
-/* Play Button Image */
+/*/////////////////////////////////////// Play Button Image ///////////////////////////////////////*/
 
 .play-button {
     position: absolute;
@@ -1273,8 +1259,7 @@ padding-left: 8.68px;
     object-fit: contain;
 }
 
-
-/* Section 10 - Customer Reviews */
+/*/////////////////////////////////////// Section 10 - Customer Reviews ///////////////////////////////////////*/
 
 .reviews-section {
     width: 80%;
@@ -1285,7 +1270,7 @@ padding-left: 8.68px;
     background-color: #FFFFFF;
 }
 
-/* Heading */
+/*/////////////////////////////////////// Heading ///////////////////////////////////////*/
 
 .reviews-heading {
     text-align: center;
@@ -1305,7 +1290,7 @@ padding-left: 8.68px;
     color: #333333;
 }
 
-/* Reviews Grid */
+/*/////////////////////////////////////// Reviews Grid ///////////////////////////////////////*/
 
 .reviews-container {
     width: 100%;
@@ -1316,7 +1301,7 @@ padding-left: 8.68px;
     gap: 12px;
 }
 
-/* Review Card */
+/*/////////////////////////////////////// Review Card ///////////////////////////////////////*/
 
 .review-card {
     width: 100%;
@@ -1327,13 +1312,12 @@ padding-left: 8.68px;
     border: 1px solid #E8E8E8;
     border-radius: 15px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-/* Customer DP */
+/*/////////////////////////////////////// Customer DP ///////////////////////////////////////*/
 
 .customer-dp {
     width: 75px;
@@ -1343,7 +1327,7 @@ padding-left: 8.68px;
     margin-bottom: 8px;
 }
 
-/* Customer Name */
+/*/////////////////////////////////////// Customer Name ///////////////////////////////////////*/
 
 .review-card h4 {
     font-size: 18px;
@@ -1356,7 +1340,7 @@ padding-left: 8.68px;
     font-weight: normal;
 }
 
-/* Star Rating */
+/*/////////////////////////////////////// Star Rating ///////////////////////////////////////*/
 
 .star-rating {
     width: 120px;
@@ -1365,7 +1349,7 @@ padding-left: 8.68px;
     margin-bottom: 8px;
 }
 
-/* Review Paragraph */
+/*/////////////////////////////////////// Review Paragraph ///////////////////////////////////////*/
 
 .review-card > p {
     font-size: 16px;
@@ -1375,7 +1359,7 @@ padding-left: 8.68px;
     margin-bottom: 12px;
 }
 
-/* Google and Time */
+/*/////////////////////////////////////// Google and Time ///////////////////////////////////////*/
 
 .review-time {
     display: flex;
@@ -1395,7 +1379,7 @@ padding-left: 8.68px;
     color: #A0A0A0;
 }
 
-/* Footer */
+/*/////////////////////////////////////// Footer ///////////////////////////////////////*/
 
 .reviews-footer {
     text-align: center;
@@ -1428,7 +1412,7 @@ padding-left: 8.68px;
     filter: none;
 }
 
-/* Section 11 stories  */
+/*/////////////////////////////////////// Section 11 stories ///////////////////////////////////////*/
 
 .stories-section {
     width: 80%;
@@ -1453,7 +1437,7 @@ padding-left: 8.68px;
 }
 
 .stories-heading span {
-     background-color: #ffeb3b;
+    background-color: #ffeb3b;
     white-space: nowrap;
     padding: 0 2px;
     line-height: 1.2;
@@ -1475,7 +1459,7 @@ padding-left: 8.68px;
     margin-bottom: 15px;
 }
 
-/* Story Rows */
+/*/////////////////////////////////////// Story Rows ///////////////////////////////////////*/
 
 .story-row {
     max-width: 100%;
@@ -1487,6 +1471,7 @@ padding-left: 8.68px;
 }
 
 .story-image,
+
 .story-content {
     width: 50%;
 }
@@ -1501,7 +1486,7 @@ padding-left: 8.68px;
     flex-direction: row;
 }
 
-/* Purple Labels */
+/*/////////////////////////////////////// Purple Labels ///////////////////////////////////////*/
 
 .story-label {
     display: inline-block;
@@ -1514,8 +1499,7 @@ padding-left: 8.68px;
     margin-bottom: 18px;
 }
 
-
-/* Section 12- Pricing & FAQ */
+/*/////////////////////////////////////// Section 12- Pricing & FAQ ///////////////////////////////////////*/
 
 .pricing-section {
     width: 100%;
@@ -1528,7 +1512,7 @@ padding-left: 8.68px;
     margin: 40px auto 0;
 }
 
-/* Pricing Header */
+/*/////////////////////////////////////// Pricing Header ///////////////////////////////////////*/
 
 .pricing-header {
     text-align: center;
@@ -1538,23 +1522,21 @@ padding-left: 8.68px;
     margin-bottom: 8px;
     word-spacing: -2px;
     font-family: Roboto;
-font-weight: 900;
-font-size: 48px;
-line-height: 100%;
-letter-spacing: 0px;
-text-align: center;
-
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
 }
 
 .pricing-header p {
-    font: Roboto;
+    font-family: Roboto, Arial, sans-serif;
     font-size: 24px;
     font-weight: 400;
     margin-top: 15px;
-    
 }
 
-/* Toggle */
+/*/////////////////////////////////////// Toggle ///////////////////////////////////////*/
 
 .pricing-toggle {
     display: flex;
@@ -1578,8 +1560,8 @@ text-align: center;
     border-radius: 3px;
 }
 
+/*/////////////////////////////////////// Pricing Cards ///////////////////////////////////////*/
 
-/* Pricing Cards */
 .pricing-cards {
     width: 80%;
     max-width: 1050px;
@@ -1617,7 +1599,7 @@ text-align: center;
     font-weight: 400;
 }
 
-/* Plan Buttons */
+/*/////////////////////////////////////// Plan Buttons ///////////////////////////////////////*/
 
 .plan-btn {
     width: 100%;
@@ -1637,7 +1619,7 @@ text-align: center;
     color: white;
 }
 
-/* Featured Card */
+/*/////////////////////////////////////// Featured Card ///////////////////////////////////////*/
 
 .pricing-card.featured {
     border: 2px solid #0866ff;
@@ -1656,7 +1638,7 @@ text-align: center;
     border-radius: 4px 4px 0 0;
 }
 
-/* Features List */
+/*/////////////////////////////////////// Features List ///////////////////////////////////////*/
 
 .pricing-card ul {
     list-style: none;
@@ -1681,20 +1663,23 @@ text-align: center;
     color: #1685ff;
 }
 
-/* FREE plan: last 7 features */
+/*/////////////////////////////////////// FREE plan: last 7 features ///////////////////////////////////////*/
+
 .pricing-card:first-child li:nth-child(n+3) {
     color: #a3aab5;
     text-decoration: line-through;
 }
 
-/* PRO plan: last 2 features */
+/*/////////////////////////////////////// PRO plan: last 2 features ///////////////////////////////////////*/
+
 .pricing-card:nth-child(2) li:nth-child(n+8),
+
 .pricing-card:nth-child(3) li:nth-child(n+8) {
     color: #a3aab5;
     text-decoration: line-through;
 }
 
-/* FAQ Section */
+/*/////////////////////////////////////// FAQ Section ///////////////////////////////////////*/
 
 .faq-section {
     width: 80%;
@@ -1750,13 +1735,12 @@ text-align: center;
     margin-top: 10px;
 }
 
-
-/* Pricing Cards Hover */
+/*/////////////////////////////////////// Pricing Cards Hover ///////////////////////////////////////*/
 
 .pricing-card {
     transition: transform 0.3s ease,
-                box-shadow 0.3s ease,
-                border-color 0.3s ease;
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .pricing-card:hover {
@@ -1764,7 +1748,6 @@ text-align: center;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
     border-color: #1685ff;
 }
-
 
 .plan-btn {
     transition: all 0.3s ease;
@@ -1780,7 +1763,6 @@ text-align: center;
     background: #004fc4;
 }
 
-
 .faq-container details {
     transition: background 0.3s ease;
     padding-left: 8px;
@@ -1795,7 +1777,6 @@ text-align: center;
     color: #0866e8;
 }
 
-
 .pricing-toggle button {
     transition: background 0.3s ease, color 0.3s ease;
 }
@@ -1805,7 +1786,8 @@ text-align: center;
     color: #0866e8;
 }
 
-/* SECTION 13 - TRUSTED BRANDS */
+/*/////////////////////////////////////// SECTION 13 - TRUSTED BRANDS ///////////////////////////////////////*/
+
 .trusted-section {
     width: 80%;
     max-width: 1050px;
@@ -1840,16 +1822,16 @@ text-align: center;
     flex-direction: column;
     gap: 17px;
     -webkit-mask-image: linear-gradient(
-        to bottom,
-        black 25%,
-        rgba(0,0,0,0.65) 60%,
-        transparent 100%
+    to bottom,
+    black 25%,
+    rgba(0,0,0,0.65) 60%,
+    transparent 100%
     );
     mask-image: linear-gradient(
-        to bottom,
-        black 25%,
-        rgba(0,0,0,0.65) 60%,
-        transparent 100%
+    to bottom,
+    black 25%,
+    rgba(0,0,0,0.65) 60%,
+    transparent 100%
     );
 }
 
@@ -1899,7 +1881,7 @@ text-align: center;
     font-weight: 600;
 }
 
-/* SECTION 14 - CTA */
+/*/////////////////////////////////////// SECTION 14 - CTA ///////////////////////////////////////*/
 
 .cta-section {
     width: 100%;
@@ -1929,7 +1911,7 @@ text-align: center;
     margin-bottom: 25px;
 }
 
-/* EMAIL FORM */
+/*/////////////////////////////////////// EMAIL FORM ///////////////////////////////////////*/
 
 .cta-form {
     display: flex;
@@ -1964,7 +1946,7 @@ text-align: center;
     margin-left: 3px;
 }
 
-/* CTA INFO */
+/*/////////////////////////////////////// CTA INFO ///////////////////////////////////////*/
 
 .cta-info {
     display: flex;
@@ -1977,9 +1959,7 @@ text-align: center;
     color: #111;
 }
 
-
-/* FOOTER SECTION */
-
+/*/////////////////////////////////////// FOOTER SECTION ///////////////////////////////////////*/
 
 .footer-section {
     width: 100%;
@@ -1995,12 +1975,12 @@ text-align: center;
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-
     display: grid;
     grid-template-columns: 1.7fr 1fr 0.8fr 0.8fr 0.8fr;
     gap: 25px;
 }
-/* FOOTER LOGO */
+
+/*/////////////////////////////////////// FOOTER LOGO ///////////////////////////////////////*/
 
 .footer-logo {
     display: flex;
@@ -2024,7 +2004,7 @@ text-align: center;
     font-family: Arial, sans-serif;
 }
 
-/* ABOUT TEXT */
+/*/////////////////////////////////////// ABOUT TEXT ///////////////////////////////////////*/
 
 .footer-about p {
     max-width: 200px;
@@ -2036,7 +2016,7 @@ text-align: center;
     margin: 0;
 }
 
-/* FOOTER COLUMNS */
+/*/////////////////////////////////////// FOOTER COLUMNS ///////////////////////////////////////*/
 
 .footer-column {
     display: flex;

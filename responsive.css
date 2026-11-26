@@ -1,9 +1,6 @@
-
-/* MOBILE RESPONSIVE */
-
 @media (max-width: 600px) {
 
-    /* Header */
+    /*/////////////////////////////////Header */
     .navbar {
         height: auto;
         min-height: 60px;
@@ -27,7 +24,7 @@
         font-size: 11px;
     }
 
-    /* Hero */
+    /*//////////////////////////////////////////Hero */
     .hero {
         width: 90%;
         min-height: auto;
@@ -62,7 +59,7 @@
         text-align: center;
     }
 
-    /* Trusted Brands 1 */
+    /*//////////////////////////////////Trusted Brands 1 */
     .brands-section {
         width: 100%;
         margin: 0;
@@ -73,7 +70,7 @@
         gap: 20px;
     }
 
-    /* Widgets Section 2 */
+    /*//////////////////////////////////////Widgets Section 2 */
     .widgets-section {
         width: 100%;
         margin: 70px auto 30px;
@@ -86,7 +83,7 @@
         width: 100%;
     }
 
-    /* Story Saver */
+    /*/////////////////////////////////////////////Story Saver */
     .story-saver {
         margin-top: 70px;
         padding: 35px 15px;
@@ -115,7 +112,7 @@
         font-size: 16px;
     }
 
-    /* Benefits */
+    /*//////////////////////////////////////////////Benefits */
     .benefits-section {
         width: 90%;
         padding: 45px 0;
@@ -148,7 +145,7 @@
         font-size: 16px;
     }
 
-    /* Templates */
+    /*////////////////////////////////////////Templates */
     .template-section {
         padding: 45px 15px;
         margin: 60px 0;
@@ -159,7 +156,7 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* Integration */
+    /*//////////////////////////////////////Integration */
     .integration-section {
         width: 90%;
         margin-top: 60px;
@@ -193,7 +190,7 @@
         gap: 15px;
     }
 
-    /* Widget CTA */
+    /*////////////////////////////////////////Widget CTA */
     .widget-section {
         padding: 30px 15px;
         margin-top: 60px;
@@ -217,7 +214,7 @@
         flex-wrap: wrap;
     }
 
-    /* Features Section 8 */
+    /*/////////////////////////////////////Features Section 8 */
     .features-section {
         width: 90%;
         padding: 40px 0;
@@ -236,7 +233,7 @@
         min-height: 200px;
     }
 
-    /* Video Section 9 */
+    /*//////////////////////////////////////Video Section 9 */
     .video-testimonial {
         width: 90%;
         height: auto;
@@ -265,7 +262,7 @@
         aspect-ratio: 16 / 10;
     }
 
-    /* Reviews Section 10 */
+    /*/////////////////////////////////////////Reviews Section 10 */
     .reviews-section {
         width: 90%;
         height: auto;
@@ -288,7 +285,7 @@
         min-height: 300px;
     }
 
-    /* Stories Section 11 */
+    /*////////////////////////////////////Stories Section 11 */
     .stories-section {
         width: 90%;
         padding: 40px 10px;
@@ -322,7 +319,7 @@
         line-height: 25px;
     }
 
-    /* Pricing Section 12 */
+    /*/////////////////////////////////////////Pricing Section 12 */
     .pricing-section {
         padding: 45px 12px;
     }
@@ -352,7 +349,7 @@
         font-size: 30px;
     }
 
-    /* Trusted Brands Section 13 */
+    /*///////////////////////////////////////Trusted Brands Section 13 */
     .trusted-section {
         width: 100%;
         padding: 45px 15px;
@@ -367,7 +364,7 @@
         max-width: 350px;
     }
 
-    /* CTA Section 14 */
+    /*///////////////////////////////////////CTA Section 14 */
     .cta-section {
         min-height: auto;
         padding: 45px 15px;
@@ -385,7 +382,7 @@
         width: 190px;
     }
 
-    /* Footer */
+    /*////////////////////////////////////////Footer */
     .footer-section {
         padding: 30px 20px;
     }
@@ -397,11 +394,9 @@
 
 }
 
-/* =========================
-   HOVER EFFECTS
-========================= */
+/* //////////////////HOVER EFFECTS*/
 
-/* Smooth transitions */
+/*/////////////////////////////////// Smooth transitions */
 .nav-buttons a,
 .nav-buttons button,
 .nav-links a,
@@ -424,20 +419,20 @@
     transition: all 0.3s ease;
 }
 
-/* Navbar Links */
+/*////////////////////////////////////Navbar Links */
 .nav-links a:hover,
 .nav-buttons a:hover {
     color: #087AFF;
 }
 
-/* Navbar Button */
+/*////////////////////////////////////Navbar Button */
 .nav-buttons button:hover,
 .email-box button:hover,
 .cta-form button:hover {
     background-color: #004fc4;
 }
 
-/* Widget Items */
+/*///////////////////////////////////Widget Items */
 .widget-item:hover {
     background-color: #f0f4fa;
     color: #087cff;
@@ -447,13 +442,13 @@
     background-color: #087cff;
 }
 
-/* Social Cards */
+/*//////////////////////////////////Social Cards */
 .social-card:hover {
     transform: translateY(-7px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
 }
 
-/* Benefit Cards */
+/*////////////////////////////////////Benefit Cards */
 .benefit-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -463,25 +458,25 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
 }
 
-/* Template Button */
+/*//////////////////////////////////////////Template Button */
 .template-btn:hover {
     background-color: #004fc4;
     transform: translateY(-3px);
 }
 
-/* Template Cards */
+/*//////////////////////////////////////////////Template Cards */
 .template-card:hover {
     transform: translateY(-7px);
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.20);
 }
 
-/* Integration Logos */
+/*//////////////////////////////////////////Integration Logos */
 .platform-logos img:hover {
     transform: scale(1.07);
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.15);
 }
 
-/* Feature Cards */
+/*/////////////////////////////////////Feature Cards */
 .feature-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -491,48 +486,41 @@
     box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
 }
 
-/* Video Thumbnail */
+/*/////////////////////////////////////Video Thumbnail */
 .video-thumbnail > img:hover {
     filter: brightness(0.88);
 }
 
-/* Review Cards */
+/*//////////////////////////////Review Cards */
 .review-card:hover {
     transform: translateY(-6px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
 }
 
-/* Story Images */
+/*/////////////////////////////Story Images */
 .story-image img:hover {
     transform: scale(1.025);
 }
 
-/* Pricing Cards */
-/* Existing pricing hover effect is already present */
 
-/* Pricing Buttons */
-/* Existing plan button hover effect is already present */
 
-/* FAQ */
-/* Existing FAQ hover effect is already present */
-
-/* CTA Button */
+/*//////////////////////////////////// CTA Button */
 .cta-form button:hover {
     transform: translateY(-2px);
 }
 
-/* Footer Links */
+/*////////////////////////////////////// Footer Links */
 .footer-column a:hover {
     color: #66aaff;
     padding-left: 4px;
 }
 
-/* Powered By Link */
+/* /////////////////////////////////////Powered By Link */
 .powered u:hover {
     color: #087AFF;
 }
 
-/* Keyboard Focus */
+/*/////////////////////////////////////Keyboard Focus */
 a:focus-visible,
 button:focus-visible,
 summary:focus-visible,
@@ -541,7 +529,7 @@ input:focus-visible {
     outline-offset: 3px;
 }
 
-/* Reduce Motion */
+/*/////////////////////////////////Reduce Motion */
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
